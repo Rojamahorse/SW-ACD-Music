@@ -145,7 +145,7 @@ Actions
 		OverrideIn = "<music/cluster2.rules>/Track2_Intro"
 		Overrides
 		{
-			DebugName = "Cluster 2 Intro - HW 1 Battle"
+			DebugName = "Cluster 2 Intro - SW_battle1"
 		}
 	}
 	{
@@ -153,7 +153,7 @@ Actions
 		OverrideIn = "<music/cluster2.rules>/Track2_Intro/Layers/0"
 		Overrides
 		{
-			File = "music/hw1_battle.ogg"
+			File = "music/SW_battle1.ogg"
 			DynamicVolumeVelocity = 0
             ZoomVolumes
             [
@@ -172,7 +172,7 @@ Actions
 		OverrideIn = "<music/cluster2.rules>/Track2_1"
 		Overrides
 		{
-			DebugName = "Cluster 2.1 - HW 2 Battle"
+			DebugName = "Cluster 2.1 - SW_battle2"
 		}
 	}
 	{
@@ -180,7 +180,7 @@ Actions
 		OverrideIn = "<music/cluster2.rules>/Track2_1/Layers/0"
 		Overrides
 		{
-			File = "music/hw2_battle.ogg"
+			File = "music/SW_battle2.ogg"
 			DynamicVolumeVelocity = 0
             ZoomVolumes
             [
@@ -831,7 +831,7 @@ Actions
 		OverrideIn = "<music/cluster7.rules>/Track7_1"
 		Overrides
 		{
-			DebugName = "Cluster 7.1 - Homeworld DoK"
+			DebugName = "Cluster 7.1 - SW_Cluster7.1_Main"
 		}
 	}
 	{
@@ -839,7 +839,7 @@ Actions
 		OverrideIn = "<music/cluster7.rules>/Track7_1/Layers/0"
 		Overrides
 		{
-			File = "music/Cluster7.1_Main.ogg"
+			File = "music/SW_Cluster7.1_Main.ogg"
 			DynamicVolumeVelocity = 0
             ZoomVolumes
             [
@@ -866,7 +866,7 @@ Actions
 		OverrideIn = "<music/cluster7.rules>/Track7_2"
 		Overrides
 		{
-			DebugName = "Cluster 7.2 - Homeworld DoK"
+			DebugName = "Cluster 7.2 - SW_Cluster7.3_Main"
 		}
 	}
 	{
@@ -874,7 +874,7 @@ Actions
 		OverrideIn = "<music/cluster7.rules>/Track7_2/Layers/0"
 		Overrides
 		{
-			File = "music/Cluster7.3_Main.ogg"
+			File = "music/SW_Cluster7.3_Main.ogg"
 			DynamicVolumeVelocity = 0
             ZoomVolumes
             [
@@ -901,7 +901,7 @@ Actions
 		OverrideIn = "<music/cluster7.rules>/Track7_3"
 		Overrides
 		{
-			DebugName = "Cluster 7.3 - Homeworld DoK"
+			DebugName = "Cluster 7.3 - SW_Cluster8.1_Main"
 		}
 	}
 	{
@@ -909,7 +909,7 @@ Actions
 		OverrideIn = "<music/cluster7.rules>/Track7_3/Layers/0"
 		Overrides
 		{
-			File = "music/Cluster8.1_Main.ogg"
+			File = "music/SW_Cluster8.1_Main.ogg"
 			DynamicVolumeVelocity = 0
             ZoomVolumes
             [
