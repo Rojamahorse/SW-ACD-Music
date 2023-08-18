@@ -2,7 +2,7 @@
 ID = SW.StarWarsMusic
 Name = "Star Wars Music"
 Version = 1.0.0
-CompatibleGameVersions = ["0.23.3"]
+CompatibleGameVersions = ["0.23.2"]
 ModifiesMultiplayer = true
 Author = "Rojamahorse"
 Logo = "logo.png"
