@@ -578,7 +578,7 @@ Actions
 		OverrideIn = "<music/cluster5.rules>/Track5_2"
 		Overrides
 		{
-			DebugName = "Cluster 5.2 - Delta"
+			DebugName = "Cluster 5.2 - SW_Mellow"
 		}
 	}
 	{
@@ -586,7 +586,7 @@ Actions
 		OverrideIn = "<music/cluster5.rules>/Track5_2/Layers/0"
 		Overrides
 		{
-			File = "music/delta.ogg"
+			File = "music/SW_Mellow.ogg"
 			DynamicVolumeVelocity = 0
             ZoomVolumes
             [
@@ -804,7 +804,7 @@ Actions
 		OverrideIn = "<music/cluster7.rules>/Track7_Intro"
 		Overrides
 		{
-			DebugName = "Cluster 7 Intro - Homeworld DoK"
+			DebugName = "Cluster 7 Intro - SW_Cluster6.4_Main"
 		}
 	}
 	{
@@ -812,7 +812,7 @@ Actions
 		OverrideIn = "<music/cluster7.rules>/Track7_Intro/Layers/0"
 		Overrides
 		{
-			File = "music/Cluster6.4_Main.ogg"
+			File = "music/SW_Cluster6.4_Main.ogg"
 			DynamicVolumeVelocity = 0
             ZoomVolumes
             [
