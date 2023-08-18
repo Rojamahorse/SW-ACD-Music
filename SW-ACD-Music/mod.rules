@@ -1,0 +1,1239 @@
+
+ID = SW.StarWarsMusak
+Name = "Star Wars Musak"
+Version = 1.0.0
+CompatibleGameVersions = ["0.23.3"]
+ModifiesMultiplayer = true
+Author = "Rojamahorse"
+Logo = "logo.png"
+//StringsFolder = "strings"
+
+Description = "Ever want to groove through turbo laser battles like a Wookiee at a Dantooine disco? With this music, you'll groove across the galaxy with hairy flair!"
+
+Actions
+[
+	// *** Music ***
+
+
+	{
+		Action = Overrides
+		OverrideIn = "<music/cluster1.rules>/Track1_Intro"
+		Overrides
+		{
+			DebugName = "Cluster 1 Intro - SW Intro"
+		}
+	}
+	{
+		Action = Overrides
+		OverrideIn = "<music/cluster1.rules>/Track1_Intro/Layers/0"
+		Overrides
+		{
+			File = "music/SW_Intro_Music.ogg"
+			DynamicVolumeVelocity = 0
+            ZoomVolumes
+            [
+                [1, 40%]
+				[1000, 10%]
+            ]
+		}
+	}
+	{
+		Action = Overrides
+		OverrideIn = "<music/cluster1.rules>/Track1_1"
+		Overrides
+		{
+			DebugName = "Cluster 1.1 - SW Intro Main"
+		}
+	}
+	{
+		Action = Overrides
+		OverrideIn = "<music/cluster1.rules>/Track1_1/Layers/0"
+		Overrides
+		{
+			File = "music/SW_Intro_Music.ogg"
+			DynamicVolumeVelocity = 0
+            ZoomVolumes
+            [
+                [1, 40%]
+				[1000, 10%]
+            ]
+		}
+	}
+	{
+		Action = RemoveMany
+		RemoveMany
+		[
+			"<music/cluster1.rules>/Track1_1/Layers/4"
+			"<music/cluster1.rules>/Track1_1/Layers/3"
+			"<music/cluster1.rules>/Track1_1/Layers/2"
+			"<music/cluster1.rules>/Track1_1/Layers/1"
+		]
+	}
+	{
+		Action = Overrides
+		OverrideIn = "<music/cluster1.rules>/Track1_2"
+		Overrides
+		{
+			DebugName = "Cluster 1.2 - SW_EmpireLoyalists"
+		}
+	}
+	{
+		Action = Overrides
+		OverrideIn = "<music/cluster1.rules>/Track1_2/Layers/0"
+		Overrides
+		{
+			File = "music/SW_EmpireLoyalists.ogg"
+			DynamicVolumeVelocity = 0
+            ZoomVolumes
+            [
+                [1, 40%]
+				[1000, 10%]
+            ]
+		}
+	}
+	{
+		Action = RemoveMany
+		RemoveMany
+		[
+			"<music/cluster1.rules>/Track1_2/Layers/4"
+			"<music/cluster1.rules>/Track1_2/Layers/3"
+			"<music/cluster1.rules>/Track1_2/Layers/2"
+			"<music/cluster1.rules>/Track1_2/Layers/1"
+		]
+	}
+
+
+	{
+		Action = Overrides
+		OverrideIn = "<music/cluster1.rules>/Track1_3"
+		Overrides
+		{
+			DebugName = "Cluster 1.3 - SW_MoarEmpire"
+		}
+	}
+	{
+		Action = Overrides
+		OverrideIn = "<music/cluster1.rules>/Track1_3/Layers/0"
+		Overrides
+		{
+			File = "music/SW_MoarEmpire.ogg"
+			DynamicVolumeVelocity = 0
+            ZoomVolumes
+            [
+                [1, 40%]
+				[1000, 10%]
+            ]
+		}
+	}
+
+	{
+		Action = RemoveMany
+		RemoveMany
+		[
+			"<music/cluster1.rules>/Track1_3/Layers/4"
+			"<music/cluster1.rules>/Track1_3/Layers/3"
+			"<music/cluster1.rules>/Track1_3/Layers/2"
+			"<music/cluster1.rules>/Track1_3/Layers/1"
+		]
+	}	
+
+	
+	// ------------------------------------------------------------------------------------------------------------------------------------------------------
+	
+	{
+		Action = Overrides
+		OverrideIn = "<music/cluster2.rules>/Track2_Intro"
+		Overrides
+		{
+			DebugName = "Cluster 2 Intro - HW 1 Battle"
+		}
+	}
+	{
+		Action = Overrides
+		OverrideIn = "<music/cluster2.rules>/Track2_Intro/Layers/0"
+		Overrides
+		{
+			File = "music/hw1_battle.ogg"
+			DynamicVolumeVelocity = 0
+            ZoomVolumes
+            [
+                [1, 40%]
+				[1000, 10%]
+            ]
+		}
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster2.rules>/Track2_Intro/Layers/1"
+	}
+	
+	{
+		Action = Overrides
+		OverrideIn = "<music/cluster2.rules>/Track2_1"
+		Overrides
+		{
+			DebugName = "Cluster 2.1 - HW 2 Battle"
+		}
+	}
+	{
+		Action = Overrides
+		OverrideIn = "<music/cluster2.rules>/Track2_1/Layers/0"
+		Overrides
+		{
+			File = "music/hw2_battle.ogg"
+			DynamicVolumeVelocity = 0
+            ZoomVolumes
+            [
+                [1, 40%]
+				[1000, 10%]
+            ]
+		}
+	}
+	{
+		Action = RemoveMany
+		RemoveMany
+		[
+			"<music/cluster2.rules>/Track2_1/Layers/4"
+			"<music/cluster2.rules>/Track2_1/Layers/3"
+			"<music/cluster2.rules>/Track2_1/Layers/2"
+			"<music/cluster2.rules>/Track2_1/Layers/1"
+		]
+	}	
+
+	
+	{
+		Action = Overrides
+		OverrideIn = "<music/cluster2.rules>/Track2_2"
+		Overrides
+		{
+			DebugName = "Cluster 2.2 - Galaxy 1"
+		}
+	}
+	{
+		Action = Overrides
+		OverrideIn = "<music/cluster2.rules>/Track2_2/Layers/0"
+		Overrides
+		{
+			File = "music/galaxy_1.ogg"
+			DynamicVolumeVelocity = 0
+            ZoomVolumes
+            [
+                [1, 40%]
+				[1000, 10%]
+            ]
+		}
+	}
+	{
+		Action = RemoveMany
+		RemoveMany
+		[
+			"<music/cluster2.rules>/Track2_2/Layers/4"
+			"<music/cluster2.rules>/Track2_2/Layers/3"
+			"<music/cluster2.rules>/Track2_2/Layers/2"
+			"<music/cluster2.rules>/Track2_2/Layers/1"
+		]
+	}	
+	
+	{
+		Action = Overrides
+		OverrideIn = "<music/cluster2.rules>/Track2_3"
+		Overrides
+		{
+			DebugName = "Cluster 2.3 - Galaxy 2"
+		}
+	}
+	{
+		Action = Overrides
+		OverrideIn = "<music/cluster2.rules>/Track2_3/Layers/0"
+		Overrides
+		{
+			File = "music/galaxy_2.ogg"
+			DynamicVolumeVelocity = 0
+            ZoomVolumes
+            [
+                [1, 40%]
+				[1000, 10%]
+            ]
+		}
+	}
+	{
+		Action = RemoveMany
+		RemoveMany
+		[
+			"<music/cluster2.rules>/Track2_3/Layers/4"
+			"<music/cluster2.rules>/Track2_3/Layers/3"
+			"<music/cluster2.rules>/Track2_3/Layers/2"
+			"<music/cluster2.rules>/Track2_3/Layers/1"
+		]
+	}	
+	
+	// ------------------------------------------------------------------------------------------------------------------------------------------------------
+	
+	{
+		Action = Overrides
+		OverrideIn = "<music/cluster3.rules>/Track3_1"
+		Overrides
+		{
+			DebugName = "Cluster 3 Intro - Galaxy 3"
+		}
+	}
+	{
+		Action = Overrides
+		OverrideIn = "<music/cluster3.rules>/Track3_1/Layers/1"
+		Overrides
+		{
+			File = "music/galaxy_3.ogg"
+			DynamicVolumeVelocity = 0
+            ZoomVolumes
+            [
+                [1, 40%]
+				[1000, 10%]
+            ]
+		}
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster3.rules>/Track3_1/Layers/4"
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster3.rules>/Track3_1/Layers/3"
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster3.rules>/Track3_1/Layers/2"
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster3.rules>/Track3_1/Layers/0"
+	}
+	
+	{
+		Action = Overrides
+		OverrideIn = "<music/cluster3.rules>/Track3_2"
+		Overrides
+		{
+			DebugName = "Cluster 3.1 - Galaxy 4"
+		}
+	}
+	{
+		Action = Overrides
+		OverrideIn = "<music/cluster3.rules>/Track3_2/Layers/1"
+		Overrides
+		{
+			File = "music/galaxy_4.ogg"
+			DynamicVolumeVelocity = 0
+            ZoomVolumes
+            [
+                [1, 40%]
+				[1000, 10%]
+            ]
+		}
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster3.rules>/Track3_2/Layers/4"
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster3.rules>/Track3_2/Layers/3"
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster3.rules>/Track3_2/Layers/2"
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster3.rules>/Track3_2/Layers/0"
+	}
+	
+	{
+		Action = Overrides
+		OverrideIn = "<music/cluster3.rules>/Track3_3"
+		Overrides
+		{
+			DebugName = "Cluster 3.2 - Galaxy 5"
+		}
+	}
+	{
+		Action = Overrides
+		OverrideIn = "<music/cluster3.rules>/Track3_3/Layers/1"
+		Overrides
+		{
+			File = "music/galaxy_5.ogg"
+			DynamicVolumeVelocity = 0
+            ZoomVolumes
+            [
+                [1, 40%]
+				[1000, 10%]
+            ]
+		}
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster3.rules>/Track3_3/Layers/4"
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster3.rules>/Track3_3/Layers/3"
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster3.rules>/Track3_3/Layers/2"
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster3.rules>/Track3_3/Layers/0"
+	}
+	
+	// ------------------------------------------------------------------------------------------------------------------------------------------------------
+	
+	{
+		Action = Overrides
+		OverrideIn = "<music/cluster4.rules>/Track4_1"
+		Overrides
+		{
+			DebugName = "Cluster 4 Intro - Galaxy 6"
+		}
+	}
+	{
+		Action = Overrides
+		OverrideIn = "<music/cluster4.rules>/Track4_1/Layers/1"
+		Overrides
+		{
+			File = "music/galaxy_6.ogg"
+			DynamicVolumeVelocity = 0
+            ZoomVolumes
+            [
+                [1, 40%]
+				[1000, 10%]
+            ]
+		}
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster4.rules>/Track4_1/Layers/4"
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster4.rules>/Track4_1/Layers/3"
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster4.rules>/Track4_1/Layers/2"
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster4.rules>/Track4_1/Layers/0"
+	}
+	
+	{
+		Action = Overrides
+		OverrideIn = "<music/cluster4.rules>/Track4_2"
+		Overrides
+		{
+			DebugName = "Cluster 4.1 - Galaxy 7"
+		}
+	}
+	{
+		Action = Overrides
+		OverrideIn = "<music/cluster4.rules>/Track4_2/Layers/1"
+		Overrides
+		{
+			File = "music/galaxy_7.ogg"
+			DynamicVolumeVelocity = 0
+            ZoomVolumes
+            [
+                [1, 40%]
+				[1000, 10%]
+            ]
+		}
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster4.rules>/Track4_2/Layers/4"
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster4.rules>/Track4_2/Layers/3"
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster4.rules>/Track4_2/Layers/2"
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster4.rules>/Track4_2/Layers/0"
+	}
+	
+	{
+		Action = Overrides
+		OverrideIn = "<music/cluster4.rules>/Track4_3"
+		Overrides
+		{
+			DebugName = "Cluster 4.2 - Galaxy 8"
+		}
+	}
+	{
+		Action = Overrides
+		OverrideIn = "<music/cluster4.rules>/Track4_3/Layers/1"
+		Overrides
+		{
+			File = "music/galaxy_8.ogg"
+			DynamicVolumeVelocity = 0
+            ZoomVolumes
+            [
+                [1, 40%]
+				[1000, 10%]
+            ]
+		}
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster4.rules>/Track4_3/Layers/4"
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster4.rules>/Track4_3/Layers/3"
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster4.rules>/Track4_3/Layers/2"
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster4.rules>/Track4_3/Layers/0"
+	}
+	
+	// ------------------------------------------------------------------------------------------------------------------------------------------------------
+	
+	{
+		Action = Overrides
+		OverrideIn = "<music/cluster5.rules>/Track5_Intro"
+		Overrides
+		{
+			DebugName = "Cluster 5 Intro - Galaxy 9"
+		}
+	}
+	{
+		Action = Overrides
+		OverrideIn = "<music/cluster5.rules>/Track5_Intro/Layers/0"
+		Overrides
+		{
+			File = "music/galaxy_9.ogg"
+			DynamicVolumeVelocity = 0
+            ZoomVolumes
+            [
+                [1, 40%]
+				[1000, 10%]
+            ]
+		}
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster5.rules>/Track5_Intro/Layers/1"
+	}
+	
+	{
+		Action = Overrides
+		OverrideIn = "<music/cluster5.rules>/Track5_1"
+		Overrides
+		{
+			DebugName = "Cluster 5.1 - DarkEmpire"
+		}
+	}
+	{
+		Action = Overrides
+		OverrideIn = "<music/cluster5.rules>/Track5_1/Layers/0"
+		Overrides
+		{
+			File = "music/DarkEmpire.ogg"
+			DynamicVolumeVelocity = 0
+            ZoomVolumes
+            [
+                [1, 40%]
+				[1000, 10%]
+            ]
+		}
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster5.rules>/Track5_1/Layers/4"
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster5.rules>/Track5_1/Layers/3"
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster5.rules>/Track5_1/Layers/2"
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster5.rules>/Track5_1/Layers/1"
+	}
+	
+	{
+		Action = Overrides
+		OverrideIn = "<music/cluster5.rules>/Track5_2"
+		Overrides
+		{
+			DebugName = "Cluster 5.2 - Delta"
+		}
+	}
+	{
+		Action = Overrides
+		OverrideIn = "<music/cluster5.rules>/Track5_2/Layers/0"
+		Overrides
+		{
+			File = "music/delta.ogg"
+			DynamicVolumeVelocity = 0
+            ZoomVolumes
+            [
+                [1, 40%]
+				[1000, 10%]
+            ]
+		}
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster5.rules>/Track5_2/Layers/4"
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster5.rules>/Track5_2/Layers/3"
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster5.rules>/Track5_2/Layers/2"
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster5.rules>/Track5_2/Layers/1"
+	}
+	
+	{
+		Action = Overrides
+		OverrideIn = "<music/cluster5.rules>/Track5_3"
+		Overrides
+		{
+			DebugName = "Cluster 5.3 - SW_Ramp"
+		}
+	}
+	{
+		Action = Overrides
+		OverrideIn = "<music/cluster5.rules>/Track5_3/Layers/0"
+		Overrides
+		{
+			File = "music/SW_Ramp.ogg"
+			DynamicVolumeVelocity = 0
+            ZoomVolumes
+            [
+                [1, 40%]
+				[1000, 10%]
+            ]
+		}
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster5.rules>/Track5_3/Layers/4"
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster5.rules>/Track5_3/Layers/3"
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster5.rules>/Track5_3/Layers/2"
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster5.rules>/Track5_3/Layers/1"
+	}
+	
+	// ------------------------------------------------------------------------------------------------------------------------------------------------------
+	
+	{
+		Action = Overrides
+		OverrideIn = "<music/cluster6.rules>/Track6_Intro"
+		Overrides
+		{
+			DebugName = "Cluster 6 Intro - SW_battle3"
+		}
+	}
+	{
+		Action = Overrides
+		OverrideIn = "<music/cluster6.rules>/Track6_Intro/Layers/0"
+		Overrides
+		{
+			File = "music/SW_battle3.ogg"
+			DynamicVolumeVelocity = 0
+            ZoomVolumes
+            [
+                [1, 40%]
+				[1000, 10%]
+            ]
+		}
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster6.rules>/Track6_Intro/Layers/1"
+	}
+	
+	{
+		Action = Overrides
+		OverrideIn = "<music/cluster6.rules>/Track6_1"
+		Overrides
+		{
+			DebugName = "Cluster 6.1 - SW_EmpireRebels"
+		}
+	}
+	{
+		Action = Overrides
+		OverrideIn = "<music/cluster6.rules>/Track6_1/Layers/0"
+		Overrides
+		{
+			File = "music/SW_EmpireRebels.ogg"
+			DynamicVolumeVelocity = 0
+            ZoomVolumes
+            [
+                [1, 40%]
+				[1000, 10%]
+            ]
+		}
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster6.rules>/Track6_1/Layers/4"
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster6.rules>/Track6_1/Layers/3"
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster6.rules>/Track6_1/Layers/2"
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster6.rules>/Track6_1/Layers/1"
+	}
+	
+	{
+		Action = Overrides
+		OverrideIn = "<music/cluster6.rules>/Track6_2"
+		Overrides
+		{
+			DebugName = "Cluster 6.2 - Homeworld 2"
+		}
+	}
+	{
+		Action = Overrides
+		OverrideIn = "<music/cluster6.rules>/Track6_2/Layers/0"
+		Overrides
+		{
+			File = "music/Cluster6.2_Main.ogg"
+			DynamicVolumeVelocity = 0
+            ZoomVolumes
+            [
+                [1, 40%]
+				[1000, 10%]
+            ]
+		}
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster6.rules>/Track6_2/Layers/4"
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster6.rules>/Track6_2/Layers/3"
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster6.rules>/Track6_2/Layers/2"
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster6.rules>/Track6_2/Layers/1"
+	}
+	
+	{
+		Action = Overrides
+		OverrideIn = "<music/cluster6.rules>/Track6_3"
+		Overrides
+		{
+			DebugName = "Cluster 6.3 - Homeworld 2"
+		}
+	}
+	{
+		Action = Overrides
+		OverrideIn = "<music/cluster6.rules>/Track6_3/Layers/0"
+		Overrides
+		{
+			File = "music/Cluster6.3_Main.ogg"
+			DynamicVolumeVelocity = 0
+            ZoomVolumes
+            [
+                [1, 40%]
+				[1000, 10%]
+            ]
+		}
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster6.rules>/Track6_3/Layers/4"
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster6.rules>/Track6_3/Layers/3"
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster6.rules>/Track6_3/Layers/2"
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster6.rules>/Track6_3/Layers/1"
+	}
+	
+	// ------------------------------------------------------------------------------------------------------------------------------------------------------
+	
+	{
+		Action = Overrides
+		OverrideIn = "<music/cluster7.rules>/Track7_Intro"
+		Overrides
+		{
+			DebugName = "Cluster 7 Intro - Homeworld DoK"
+		}
+	}
+	{
+		Action = Overrides
+		OverrideIn = "<music/cluster7.rules>/Track7_Intro/Layers/0"
+		Overrides
+		{
+			File = "music/Cluster6.4_Main.ogg"
+			DynamicVolumeVelocity = 0
+            ZoomVolumes
+            [
+                [1, 40%]
+				[1000, 10%]
+            ]
+		}
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster7.rules>/Track7_Intro/Layers/1"
+	}
+	
+	{
+		Action = Overrides
+		OverrideIn = "<music/cluster7.rules>/Track7_1"
+		Overrides
+		{
+			DebugName = "Cluster 7.1 - Homeworld DoK"
+		}
+	}
+	{
+		Action = Overrides
+		OverrideIn = "<music/cluster7.rules>/Track7_1/Layers/0"
+		Overrides
+		{
+			File = "music/Cluster7.1_Main.ogg"
+			DynamicVolumeVelocity = 0
+            ZoomVolumes
+            [
+                [1, 40%]
+				[1000, 10%]
+            ]
+		}
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster7.rules>/Track7_1/Layers/3"
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster7.rules>/Track7_1/Layers/2"
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster7.rules>/Track7_1/Layers/1"
+	}
+	
+	{
+		Action = Overrides
+		OverrideIn = "<music/cluster7.rules>/Track7_2"
+		Overrides
+		{
+			DebugName = "Cluster 7.2 - Homeworld DoK"
+		}
+	}
+	{
+		Action = Overrides
+		OverrideIn = "<music/cluster7.rules>/Track7_2/Layers/0"
+		Overrides
+		{
+			File = "music/Cluster7.3_Main.ogg"
+			DynamicVolumeVelocity = 0
+            ZoomVolumes
+            [
+                [1, 40%]
+				[1000, 10%]
+            ]
+		}
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster7.rules>/Track7_2/Layers/3"
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster7.rules>/Track7_2/Layers/2"
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster7.rules>/Track7_2/Layers/1"
+	}
+	
+	{
+		Action = Overrides
+		OverrideIn = "<music/cluster7.rules>/Track7_3"
+		Overrides
+		{
+			DebugName = "Cluster 7.3 - Homeworld DoK"
+		}
+	}
+	{
+		Action = Overrides
+		OverrideIn = "<music/cluster7.rules>/Track7_3/Layers/0"
+		Overrides
+		{
+			File = "music/Cluster8.1_Main.ogg"
+			DynamicVolumeVelocity = 0
+            ZoomVolumes
+            [
+                [1, 40%]
+				[1000, 10%]
+            ]
+		}
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster7.rules>/Track7_3/Layers/3"
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster7.rules>/Track7_3/Layers/2"
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster7.rules>/Track7_3/Layers/1"
+	}
+	
+	// ------------------------------------------------------------------------------------------------------------------------------------------------------
+	
+	{
+		Action = Overrides
+		OverrideIn = "<music/cluster8.rules>/Track8_1"
+		Overrides
+		{
+			DebugName = "Cluster 8 Intro - SW_Cluster8.3"
+		}
+	}
+	{
+		Action = Overrides
+		OverrideIn = "<music/cluster8.rules>/Track8_1/Layers/0"
+		Overrides
+		{
+			File = "music/SW_Cluster8.3_Main.ogg"
+			DynamicVolumeVelocity = 0
+            ZoomVolumes
+            [
+                [1, 40%]
+				[1000, 10%]
+            ]
+		}
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster8.rules>/Track8_1/Layers/3"
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster8.rules>/Track8_1/Layers/2"
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster8.rules>/Track8_1/Layers/1"
+	}
+	
+	{
+		Action = Overrides
+		OverrideIn = "<music/cluster8.rules>/Track8_2"
+		Overrides
+		{
+			DebugName = "Cluster 8.1 - SW_Reb_1.1_Main"
+		}
+	}
+	{
+		Action = Overrides
+		OverrideIn = "<music/cluster8.rules>/Track8_2/Layers/0"
+		Overrides
+		{
+			File = "music/SW_Cluster1.1_Main.ogg"
+			DynamicVolumeVelocity = 0
+            ZoomVolumes
+            [
+                [1, 40%]
+				[1000, 10%]
+            ]
+		}
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster8.rules>/Track8_2/Layers/3"
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster8.rules>/Track8_2/Layers/2"
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster8.rules>/Track8_2/Layers/1"
+	}
+	
+	{
+		Action = Overrides
+		OverrideIn = "<music/cluster8.rules>/Track8_3"
+		Overrides
+		{
+			DebugName = "Cluster 8.2 - SW_Emp_1.3_Main"
+		}
+	}
+	{
+		Action = Overrides
+		OverrideIn = "<music/cluster8.rules>/Track8_3/Layers/0"
+		Overrides
+		{
+			File = "music/SW_Cluster1.3_Main.ogg"
+			DynamicVolumeVelocity = 0
+            ZoomVolumes
+            [
+                [1, 40%]
+				[1000, 10%]
+            ]
+		}
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster8.rules>/Track8_3/Layers/3"
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster8.rules>/Track8_3/Layers/2"
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster8.rules>/Track8_3/Layers/1"
+	}
+	
+	{
+		Action = Overrides
+		OverrideIn = "<music/cluster8.rules>/Track8_4"
+		Overrides
+		{
+			DebugName = "Cluster 8.3 - SW_Rep_2.2_Main"
+		}
+	}
+	{
+		Action = Overrides
+		OverrideIn = "<music/cluster8.rules>/Track8_4/Layers/0"
+		Overrides
+		{
+			File = "music/SW_Cluster2.2_Main.ogg"
+			DynamicVolumeVelocity = 0
+            ZoomVolumes
+            [
+                [1, 40%]
+				[1000, 10%]
+            ]
+		}
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster8.rules>/Track8_4/Layers/3"
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster8.rules>/Track8_4/Layers/2"
+	}
+	{
+		Action = Remove
+		Remove = "<music/cluster8.rules>/Track8_4/Layers/1"
+	}
+	
+	// *** Sounds ***
+	{
+		Action = Replace
+		Replace = "<shots/laser_bolt_small/laser_bolt_small.rules>/Components/Hit/HitOperational/MediaEffects/4/Sound"
+		IgnoreIfNotExisting = false
+		With = "sounds/weapons/laser_impact.wav"
+	}
+	{
+		Action = Replace
+		Replace = "<shots/laser_bolt_small/laser_bolt_small.rules>/Components/Hit/HitStructural/MediaEffects/3/Sound"
+		IgnoreIfNotExisting = false
+		With = "sounds/weapons/laser_impact.wav"
+	}
+	{
+		Action = Replace
+		Replace = "<shots/laser_bolt_large/laser_bolt_large.rules>/Components/Hit/HitOperational/MediaEffects/4/Sound"
+		IgnoreIfNotExisting = false
+		With = "sounds/weapons/laser_impact.wav"
+	}
+	{
+		Action = Replace
+		Replace = "<shots/laser_bolt_large/laser_bolt_large.rules>/Components/Hit/HitStructural/MediaEffects/3/Sound"
+		IgnoreIfNotExisting = false
+		With = "sounds/weapons/laser_impact.wav"
+	}
+	{
+		Action = Replace
+		Replace = "<ships/terran/laser_blaster_small/laser_blaster_small.rules>/Part/Components/FireEffect/MediaEffects/2/Sound"
+		IgnoreIfNotExisting = false
+		With = "sounds/weapons/laser.wav"
+	}
+	{
+		Action = Replace
+		Replace = "<ships/terran/laser_blaster_large/laser_blaster_large.rules>/Part/Components/FireEffectLeft/MediaEffects/2/Sound"
+		IgnoreIfNotExisting = false
+		With = "sounds/weapons/turbolaser.wav"
+	}
+	{
+		Action = Replace
+		Replace = "<ships/terran/laser_blaster_large/laser_blaster_large.rules>/Part/Components/FireEffectLeft/MediaEffects/2/Volume"
+		IgnoreIfNotExisting = false
+		With = ".5"
+	}
+	{
+		Action = Replace
+		Replace = "<ships/terran/disruptor/disruptor.rules>/Part/Components/FireEffect/MediaEffects/3/Sound"
+		IgnoreIfNotExisting = false
+		With = "sounds/weapons/ion.wav"
+	}
+	{
+		Action = Replace
+		Replace = "<ships/terran/disruptor/disruptor.rules>/Part/Components/FireEffect/MediaEffects/3/Volume"
+		IgnoreIfNotExisting = false
+		With = ".5"
+	}
+	{
+		Action = Replace
+		Replace = "<ships/terran/missile_launcher/he/missile_launcher_he.rules>/LaunchEffectBase/MediaEffects/2/Sound"
+		IgnoreIfNotExisting = false
+		With = "sounds/weapons/torpedo.wav"
+	}
+	{
+		Action = Replace
+		Replace = "<ships/terran/missile_launcher/emp/missile_launcher_emp.rules>/Components/LaunchEffect/MediaEffects/1/Sound"
+		IgnoreIfNotExisting = false
+		With = "sounds/weapons/torpedo.wav"
+	}
+	{
+		Action = Replace
+		Replace = "<ships/terran/railgun_launcher/railgun_launcher.rules>/Part/Components/ProjectileSound/MediaEffects/0/Sound"
+		IgnoreIfNotExisting = false
+		With = "sounds/weapons/railgun.wav"
+	}
+	{
+		Action = Replace
+		Replace = "<ships/terran/railgun_loader/railgun_loader.rules>/Part/Components/FireEffect/MediaEffects/0/Sound"
+		IgnoreIfNotExisting = false
+		With = "sounds/weapons/railgun.wav"
+	}
+	{
+		Action = Replace
+		Replace = "<ships/terran/point_defense/point_defense.rules>/Part/Components/FireEffect/MediaEffects/2/Sound"
+		IgnoreIfNotExisting = false
+		With = "sounds/weapons/point_defense.wav"
+	}
+	{
+		Action = Replace
+		Replace = "<ships/terran/cannon_med/cannon_med.rules>/Part/Components/FireEffect/MediaEffects/4/Sound"
+		IgnoreIfNotExisting = false
+		With = "sounds/weapons/cannon.wav"
+	}
+	{
+		Action = Replace
+		Replace = "<ships/terran/cannon_large/cannon_large.rules>/Part/Components/FireEffect/MediaEffects/4/Sound"
+		IgnoreIfNotExisting = false
+		With = "sounds/weapons/cannon.wav"
+	}
+	{
+		Action = Replace
+		Replace = "<ships/terran/cannon_deck/cannon_deck.rules>/Part/Components/FireEffect1/MediaEffects/4/Sound"
+		IgnoreIfNotExisting = false
+		With = "sounds/weapons/cannon_deck.wav"
+	}
+	{
+		Action = Replace
+		Replace = "<ships/terran/flak_cannon_large/flak_cannon_large.rules>/Part/Components/FireEffect1a/MediaEffects/3/Sound"
+		IgnoreIfNotExisting = false
+		With = "sounds/weapons/flak.wav"
+	}
+	{
+		Action = Replace
+		Replace = "<shots/mining_beam_small/mining_beam_small.rules>/BeamMediaEffects/2/Sound"
+		IgnoreIfNotExisting = false
+		With = "sounds/weapons/mining_laser.wav"
+	}
+	{
+		Action = Replace
+		Replace = "<shots/mining_beam_small/mining_beam_small.rules>/BeamMediaEffects/3/Sound"
+		IgnoreIfNotExisting = false
+		With = "sounds/weapons/mining_laser.wav"
+	}
+	{
+		Action = Replace
+		Replace = "<common_effects/sounds/common_sounds.rules>/ThrusterBurst/Sound"
+		IgnoreIfNotExisting = false
+		With = "sounds/engines/thruster_run.wav"
+	}
+	{
+		Action = Replace
+		Replace = "<common_effects/sounds/common_sounds.rules>/ThrusterRumble/Sound"
+		IgnoreIfNotExisting = false
+		With = "sounds/engines/thruster_run.wav"
+	}
+	{
+		Action = Replace
+		Replace = "<common_effects/sounds/common_sounds.rules>/ThrusterHum/Sound"
+		IgnoreIfNotExisting = false
+		With = "sounds/engines/thruster_idle.wav"
+	}
+	{
+		Action = Replace
+		Replace = "<ships/terran/hyperdrive_small/hyperdrive_small.rules>/Part/Components/FtlDrive/JumpOutGateMediaEffects/1/Sound"
+		IgnoreIfNotExisting = false
+		With = "sounds/engines/hyperspace_enter.wav"
+	}
+	{
+		Action = Replace
+		Replace = "<ships/terran/hyperdrive_small/hyperdrive_small.rules>/Part/Components/FtlDrive/JumpInGateMediaEffects/1/Sound"
+		IgnoreIfNotExisting = false
+		With = "sounds/engines/hyperspace_exit.wav"
+	}
+	{
+		Action = Replace
+		Replace = "<ships/base_ship.rules>/FtlEffects/JumpOutMediaEffects/0/Sound"
+		IgnoreIfNotExisting = false
+		With = "sounds/engines/hyperspace_enter.wav"
+	}
+	{
+		Action = Replace
+		Replace = "<ships/base_ship.rules>/FtlEffects/JumpInMediaEffects/0/Sound"
+		IgnoreIfNotExisting = false
+		With = "sounds/engines/hyperspace_exit.wav"
+	}
+]
