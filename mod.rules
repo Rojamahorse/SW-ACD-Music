@@ -292,22 +292,15 @@ Actions
 		}
 	}
 	{
-		Action = Remove
-		Remove = "<music/cluster3.rules>/Track3_1/Layers/4"
-	}
-	{
-		Action = Remove
-		Remove = "<music/cluster3.rules>/Track3_1/Layers/3"
-	}
-	{
-		Action = Remove
-		Remove = "<music/cluster3.rules>/Track3_1/Layers/2"
-	}
-	{
-		Action = Remove
-		Remove = "<music/cluster3.rules>/Track3_1/Layers/0"
-	}
-	
+		Action = RemoveMany
+		RemoveMany
+		[
+			"<music/cluster3.rules>/Track3_1/Layers/4"
+			"<music/cluster3.rules>/Track3_1/Layers/3"
+			"<music/cluster3.rules>/Track3_1/Layers/2"
+			"<music/cluster3.rules>/Track3_1/Layers/0"
+		]
+	}	
 	{
 		Action = Overrides
 		OverrideIn = "<music/cluster3.rules>/Track3_2"
@@ -331,22 +324,15 @@ Actions
 		}
 	}
 	{
-		Action = Remove
-		Remove = "<music/cluster3.rules>/Track3_2/Layers/4"
-	}
-	{
-		Action = Remove
-		Remove = "<music/cluster3.rules>/Track3_2/Layers/3"
-	}
-	{
-		Action = Remove
-		Remove = "<music/cluster3.rules>/Track3_2/Layers/2"
-	}
-	{
-		Action = Remove
-		Remove = "<music/cluster3.rules>/Track3_2/Layers/0"
-	}
-	
+		Action = RemoveMany
+		RemoveMany
+		[
+			"<music/cluster3.rules>/Track3_2/Layers/4"
+			"<music/cluster3.rules>/Track3_2/Layers/3"
+			"<music/cluster3.rules>/Track3_2/Layers/2"
+			"<music/cluster3.rules>/Track3_2/Layers/0"
+		]
+	}	
 	{
 		Action = Overrides
 		OverrideIn = "<music/cluster3.rules>/Track3_3"
@@ -370,22 +356,16 @@ Actions
 		}
 	}
 	{
-		Action = Remove
-		Remove = "<music/cluster3.rules>/Track3_3/Layers/4"
-	}
-	{
-		Action = Remove
-		Remove = "<music/cluster3.rules>/Track3_3/Layers/3"
-	}
-	{
-		Action = Remove
-		Remove = "<music/cluster3.rules>/Track3_3/Layers/2"
-	}
-	{
-		Action = Remove
-		Remove = "<music/cluster3.rules>/Track3_3/Layers/0"
-	}
-	
+		Action = RemoveMany
+		RemoveMany
+		[
+			"<music/cluster3.rules>/Track3_3/Layers/4"
+			"<music/cluster3.rules>/Track3_3/Layers/3"
+			"<music/cluster3.rules>/Track3_3/Layers/2"
+			"<music/cluster3.rules>/Track3_3/Layers/0"
+		]
+	}	
+
 	// ------------------------------------------------------------------------------------------------------------------------------------------------------
 	
 	{
@@ -411,22 +391,16 @@ Actions
 		}
 	}
 	{
-		Action = Remove
-		Remove = "<music/cluster4.rules>/Track4_1/Layers/4"
-	}
-	{
-		Action = Remove
-		Remove = "<music/cluster4.rules>/Track4_1/Layers/3"
-	}
-	{
-		Action = Remove
-		Remove = "<music/cluster4.rules>/Track4_1/Layers/2"
-	}
-	{
-		Action = Remove
-		Remove = "<music/cluster4.rules>/Track4_1/Layers/0"
-	}
-	
+		Action = RemoveMany
+		RemoveMany
+		[
+			"<music/cluster4.rules>/Track4_1/Layers/4"
+			"<music/cluster4.rules>/Track4_1/Layers/3"
+			"<music/cluster4.rules>/Track4_1/Layers/2"
+			"<music/cluster4.rules>/Track4_1/Layers/0"
+		]
+	}	
+
 	{
 		Action = Overrides
 		OverrideIn = "<music/cluster4.rules>/Track4_2"
@@ -450,22 +424,15 @@ Actions
 		}
 	}
 	{
-		Action = Remove
-		Remove = "<music/cluster4.rules>/Track4_2/Layers/4"
-	}
-	{
-		Action = Remove
-		Remove = "<music/cluster4.rules>/Track4_2/Layers/3"
-	}
-	{
-		Action = Remove
-		Remove = "<music/cluster4.rules>/Track4_2/Layers/2"
-	}
-	{
-		Action = Remove
-		Remove = "<music/cluster4.rules>/Track4_2/Layers/0"
-	}
-	
+		Action = RemoveMany
+		RemoveMany
+		[
+			"<music/cluster4.rules>/Track4_2/Layers/4"
+			"<music/cluster4.rules>/Track4_2/Layers/3"
+			"<music/cluster4.rules>/Track4_2/Layers/2"
+			"<music/cluster4.rules>/Track4_2/Layers/0"
+		]
+	}		
 	{
 		Action = Overrides
 		OverrideIn = "<music/cluster4.rules>/Track4_3"
@@ -489,22 +456,15 @@ Actions
 		}
 	}
 	{
-		Action = Remove
-		Remove = "<music/cluster4.rules>/Track4_3/Layers/4"
-	}
-	{
-		Action = Remove
-		Remove = "<music/cluster4.rules>/Track4_3/Layers/3"
-	}
-	{
-		Action = Remove
-		Remove = "<music/cluster4.rules>/Track4_3/Layers/2"
-	}
-	{
-		Action = Remove
-		Remove = "<music/cluster4.rules>/Track4_3/Layers/0"
-	}
-	
+		Action = RemoveMany
+		RemoveMany
+		[
+			"<music/cluster4.rules>/Track4_3/Layers/4"
+			"<music/cluster4.rules>/Track4_3/Layers/3"
+			"<music/cluster4.rules>/Track4_3/Layers/2"
+			"<music/cluster4.rules>/Track4_3/Layers/0"
+		]
+	}	
 	// ------------------------------------------------------------------------------------------------------------------------------------------------------
 	
 	{
@@ -557,20 +517,14 @@ Actions
 		}
 	}
 	{
-		Action = Remove
-		Remove = "<music/cluster5.rules>/Track5_1/Layers/4"
-	}
-	{
-		Action = Remove
-		Remove = "<music/cluster5.rules>/Track5_1/Layers/3"
-	}
-	{
-		Action = Remove
-		Remove = "<music/cluster5.rules>/Track5_1/Layers/2"
-	}
-	{
-		Action = Remove
-		Remove = "<music/cluster5.rules>/Track5_1/Layers/1"
+		Action = RemoveMany
+		RemoveMany
+		[
+			"<music/cluster5.rules>/Track5_1/Layers/4"
+			"<music/cluster5.rules>/Track5_1/Layers/3"
+			"<music/cluster5.rules>/Track5_1/Layers/2"
+			"<music/cluster5.rules>/Track5_1/Layers/1"
+		]
 	}
 	
 	{
@@ -596,20 +550,14 @@ Actions
 		}
 	}
 	{
-		Action = Remove
-		Remove = "<music/cluster5.rules>/Track5_2/Layers/4"
-	}
-	{
-		Action = Remove
-		Remove = "<music/cluster5.rules>/Track5_2/Layers/3"
-	}
-	{
-		Action = Remove
-		Remove = "<music/cluster5.rules>/Track5_2/Layers/2"
-	}
-	{
-		Action = Remove
-		Remove = "<music/cluster5.rules>/Track5_2/Layers/1"
+		Action = RemoveMany
+		RemoveMany
+		[
+			"<music/cluster5.rules>/Track5_2/Layers/4"
+			"<music/cluster5.rules>/Track5_2/Layers/3"
+			"<music/cluster5.rules>/Track5_2/Layers/2"
+			"<music/cluster5.rules>/Track5_2/Layers/1"
+		]
 	}
 	
 	{
@@ -635,20 +583,14 @@ Actions
 		}
 	}
 	{
-		Action = Remove
-		Remove = "<music/cluster5.rules>/Track5_3/Layers/4"
-	}
-	{
-		Action = Remove
-		Remove = "<music/cluster5.rules>/Track5_3/Layers/3"
-	}
-	{
-		Action = Remove
-		Remove = "<music/cluster5.rules>/Track5_3/Layers/2"
-	}
-	{
-		Action = Remove
-		Remove = "<music/cluster5.rules>/Track5_3/Layers/1"
+		Action = RemoveMany
+		RemoveMany
+		[
+			"<music/cluster5.rules>/Track5_3/Layers/4"
+			"<music/cluster5.rules>/Track5_3/Layers/3"
+			"<music/cluster5.rules>/Track5_3/Layers/2"
+			"<music/cluster5.rules>/Track5_3/Layers/1"
+		]
 	}
 	
 	// ------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -703,22 +645,16 @@ Actions
 		}
 	}
 	{
-		Action = Remove
-		Remove = "<music/cluster6.rules>/Track6_1/Layers/4"
+		Action = RemoveMany
+		RemoveMany
+		[
+			"<music/cluster6.rules>/Track6_1/Layers/4"
+			"<music/cluster6.rules>/Track6_1/Layers/3"
+			"<music/cluster6.rules>/Track6_1/Layers/2"
+			"<music/cluster6.rules>/Track6_1/Layers/1"
+		]
 	}
-	{
-		Action = Remove
-		Remove = "<music/cluster6.rules>/Track6_1/Layers/3"
-	}
-	{
-		Action = Remove
-		Remove = "<music/cluster6.rules>/Track6_1/Layers/2"
-	}
-	{
-		Action = Remove
-		Remove = "<music/cluster6.rules>/Track6_1/Layers/1"
-	}
-	
+
 	{
 		Action = Overrides
 		OverrideIn = "<music/cluster6.rules>/Track6_2"
@@ -742,20 +678,14 @@ Actions
 		}
 	}
 	{
-		Action = Remove
-		Remove = "<music/cluster6.rules>/Track6_2/Layers/4"
-	}
-	{
-		Action = Remove
-		Remove = "<music/cluster6.rules>/Track6_2/Layers/3"
-	}
-	{
-		Action = Remove
-		Remove = "<music/cluster6.rules>/Track6_2/Layers/2"
-	}
-	{
-		Action = Remove
-		Remove = "<music/cluster6.rules>/Track6_2/Layers/1"
+		Action = RemoveMany
+		RemoveMany
+		[
+			"<music/cluster6.rules>/Track6_2/Layers/4"
+			"<music/cluster6.rules>/Track6_2/Layers/3"
+			"<music/cluster6.rules>/Track6_2/Layers/2"
+			"<music/cluster6.rules>/Track6_2/Layers/1"
+		]
 	}
 	
 	{
@@ -781,20 +711,14 @@ Actions
 		}
 	}
 	{
-		Action = Remove
-		Remove = "<music/cluster6.rules>/Track6_3/Layers/4"
-	}
-	{
-		Action = Remove
-		Remove = "<music/cluster6.rules>/Track6_3/Layers/3"
-	}
-	{
-		Action = Remove
-		Remove = "<music/cluster6.rules>/Track6_3/Layers/2"
-	}
-	{
-		Action = Remove
-		Remove = "<music/cluster6.rules>/Track6_3/Layers/1"
+		Action = RemoveMany
+		RemoveMany
+		[
+			"<music/cluster6.rules>/Track6_3/Layers/4"
+			"<music/cluster6.rules>/Track6_3/Layers/3"
+			"<music/cluster6.rules>/Track6_3/Layers/2"
+			"<music/cluster6.rules>/Track6_3/Layers/1"
+		]
 	}
 	
 	// ------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -849,16 +773,13 @@ Actions
 		}
 	}
 	{
-		Action = Remove
-		Remove = "<music/cluster7.rules>/Track7_1/Layers/3"
-	}
-	{
-		Action = Remove
-		Remove = "<music/cluster7.rules>/Track7_1/Layers/2"
-	}
-	{
-		Action = Remove
-		Remove = "<music/cluster7.rules>/Track7_1/Layers/1"
+		Action = RemoveMany
+		RemoveMany
+		[
+			"<music/cluster7.rules>/Track7_1/Layers/3"
+			"<music/cluster7.rules>/Track7_1/Layers/2"
+			"<music/cluster7.rules>/Track7_1/Layers/1"
+		]
 	}
 	
 	{
@@ -884,16 +805,13 @@ Actions
 		}
 	}
 	{
-		Action = Remove
-		Remove = "<music/cluster7.rules>/Track7_2/Layers/3"
-	}
-	{
-		Action = Remove
-		Remove = "<music/cluster7.rules>/Track7_2/Layers/2"
-	}
-	{
-		Action = Remove
-		Remove = "<music/cluster7.rules>/Track7_2/Layers/1"
+		Action = RemoveMany
+		RemoveMany
+		[
+			"<music/cluster7.rules>/Track7_2/Layers/3"
+			"<music/cluster7.rules>/Track7_2/Layers/2"
+			"<music/cluster7.rules>/Track7_2/Layers/1"
+		]
 	}
 	
 	{
@@ -919,16 +837,13 @@ Actions
 		}
 	}
 	{
-		Action = Remove
-		Remove = "<music/cluster7.rules>/Track7_3/Layers/3"
-	}
-	{
-		Action = Remove
-		Remove = "<music/cluster7.rules>/Track7_3/Layers/2"
-	}
-	{
-		Action = Remove
-		Remove = "<music/cluster7.rules>/Track7_3/Layers/1"
+		Action = RemoveMany
+		RemoveMany
+		[
+			"<music/cluster7.rules>/Track7_3/Layers/3"
+			"<music/cluster7.rules>/Track7_3/Layers/2"
+			"<music/cluster7.rules>/Track7_3/Layers/1"
+		]
 	}
 	
 	// ------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -956,16 +871,13 @@ Actions
 		}
 	}
 	{
-		Action = Remove
-		Remove = "<music/cluster8.rules>/Track8_1/Layers/3"
-	}
-	{
-		Action = Remove
-		Remove = "<music/cluster8.rules>/Track8_1/Layers/2"
-	}
-	{
-		Action = Remove
-		Remove = "<music/cluster8.rules>/Track8_1/Layers/1"
+		Action = RemoveMany
+		RemoveMany
+		[
+			"<music/cluster8.rules>/Track8_1/Layers/3"
+			"<music/cluster8.rules>/Track8_1/Layers/2"
+			"<music/cluster8.rules>/Track8_1/Layers/1"
+		]
 	}
 	
 	{
@@ -991,16 +903,13 @@ Actions
 		}
 	}
 	{
-		Action = Remove
-		Remove = "<music/cluster8.rules>/Track8_2/Layers/3"
-	}
-	{
-		Action = Remove
-		Remove = "<music/cluster8.rules>/Track8_2/Layers/2"
-	}
-	{
-		Action = Remove
-		Remove = "<music/cluster8.rules>/Track8_2/Layers/1"
+		Action = RemoveMany
+		RemoveMany
+		[
+			"<music/cluster8.rules>/Track8_2/Layers/3"
+			"<music/cluster8.rules>/Track8_2/Layers/2"
+			"<music/cluster8.rules>/Track8_2/Layers/1"
+		]
 	}
 	
 	{
@@ -1026,16 +935,13 @@ Actions
 		}
 	}
 	{
-		Action = Remove
-		Remove = "<music/cluster8.rules>/Track8_3/Layers/3"
-	}
-	{
-		Action = Remove
-		Remove = "<music/cluster8.rules>/Track8_3/Layers/2"
-	}
-	{
-		Action = Remove
-		Remove = "<music/cluster8.rules>/Track8_3/Layers/1"
+		Action = RemoveMany
+		RemoveMany
+		[
+			"<music/cluster8.rules>/Track8_3/Layers/3"
+			"<music/cluster8.rules>/Track8_3/Layers/2"
+			"<music/cluster8.rules>/Track8_3/Layers/1"
+		]
 	}
 	
 	{
@@ -1061,18 +967,16 @@ Actions
 		}
 	}
 	{
-		Action = Remove
-		Remove = "<music/cluster8.rules>/Track8_4/Layers/3"
+		Action = RemoveMany
+		RemoveMany
+		[
+			"<music/cluster8.rules>/Track8_4/Layers/3"
+			"<music/cluster8.rules>/Track8_4/Layers/2"
+			"<music/cluster8.rules>/Track8_4/Layers/1"
+		]
 	}
-	{
-		Action = Remove
-		Remove = "<music/cluster8.rules>/Track8_4/Layers/2"
-	}
-	{
-		Action = Remove
-		Remove = "<music/cluster8.rules>/Track8_4/Layers/1"
-	}
-	
+
+/*	
 	// *** Sounds ***
 	{
 		Action = Replace
@@ -1236,4 +1140,5 @@ Actions
 		IgnoreIfNotExisting = false
 		With = "sounds/engines/hyperspace_exit.wav"
 	}
+*/
 ]
