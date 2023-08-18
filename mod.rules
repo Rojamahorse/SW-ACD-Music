@@ -763,7 +763,7 @@ Actions
 		OverrideIn = "<music/cluster6.rules>/Track6_3"
 		Overrides
 		{
-			DebugName = "Cluster 6.3 - Homeworld 2"
+			DebugName = "Cluster 6.3 - SW_Cluster6.3_Main"
 		}
 	}
 	{
@@ -771,7 +771,7 @@ Actions
 		OverrideIn = "<music/cluster6.rules>/Track6_3/Layers/0"
 		Overrides
 		{
-			File = "music/Cluster6.3_Main.ogg"
+			File = "music/SW_Cluster6.3_Main.ogg"
 			DynamicVolumeVelocity = 0
             ZoomVolumes
             [
