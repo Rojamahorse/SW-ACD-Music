@@ -976,43 +976,46 @@ Actions
 		]
 	}
 
-/*	
+	
 	// *** Sounds ***
+	/*
 	{
 		Action = Replace
 		Replace = "<shots/laser_bolt_small/laser_bolt_small.rules>/Components/Hit/HitOperational/MediaEffects/4/Sound"
 		IgnoreIfNotExisting = false
-		With = "sounds/weapons/laser_impact.wav"
+		With = "sounds/weapons/PLACEHOLDER.wav"
 	}
 	{
 		Action = Replace
 		Replace = "<shots/laser_bolt_small/laser_bolt_small.rules>/Components/Hit/HitStructural/MediaEffects/3/Sound"
 		IgnoreIfNotExisting = false
-		With = "sounds/weapons/laser_impact.wav"
+		With = "sounds/weapons/PLACEHOLDER.wav"
 	}
 	{
 		Action = Replace
 		Replace = "<shots/laser_bolt_large/laser_bolt_large.rules>/Components/Hit/HitOperational/MediaEffects/4/Sound"
 		IgnoreIfNotExisting = false
-		With = "sounds/weapons/laser_impact.wav"
+		With = "sounds/weapons/PLACEHOLDER.wav"
 	}
 	{
 		Action = Replace
 		Replace = "<shots/laser_bolt_large/laser_bolt_large.rules>/Components/Hit/HitStructural/MediaEffects/3/Sound"
 		IgnoreIfNotExisting = false
-		With = "sounds/weapons/laser_impact.wav"
+		With = "sounds/weapons/PLACEHOLDER.wav"
 	}
+	*/
 	{
 		Action = Replace
 		Replace = "<ships/terran/laser_blaster_small/laser_blaster_small.rules>/Part/Components/FireEffect/MediaEffects/2/Sound"
 		IgnoreIfNotExisting = false
 		With = "sounds/weapons/laser.wav"
 	}
+	/*
 	{
 		Action = Replace
 		Replace = "<ships/terran/laser_blaster_large/laser_blaster_large.rules>/Part/Components/FireEffectLeft/MediaEffects/2/Sound"
 		IgnoreIfNotExisting = false
-		With = "sounds/weapons/turbolaser.wav"
+		With = "sounds/weapons/PLACEHOLDER.wav"
 	}
 	{
 		Action = Replace
@@ -1024,7 +1027,7 @@ Actions
 		Action = Replace
 		Replace = "<ships/terran/disruptor/disruptor.rules>/Part/Components/FireEffect/MediaEffects/3/Sound"
 		IgnoreIfNotExisting = false
-		With = "sounds/weapons/ion.wav"
+		With = "sounds/weapons/PLACEHOLDER.wav"
 	}
 	{
 		Action = Replace
@@ -1036,109 +1039,110 @@ Actions
 		Action = Replace
 		Replace = "<ships/terran/missile_launcher/he/missile_launcher_he.rules>/LaunchEffectBase/MediaEffects/2/Sound"
 		IgnoreIfNotExisting = false
-		With = "sounds/weapons/torpedo.wav"
+		With = "sounds/weapons/PLACEHOLDER.wav"
 	}
 	{
 		Action = Replace
 		Replace = "<ships/terran/missile_launcher/emp/missile_launcher_emp.rules>/Components/LaunchEffect/MediaEffects/1/Sound"
 		IgnoreIfNotExisting = false
-		With = "sounds/weapons/torpedo.wav"
+		With = "sounds/weapons/PLACEHOLDER.wav"
 	}
 	{
 		Action = Replace
 		Replace = "<ships/terran/railgun_launcher/railgun_launcher.rules>/Part/Components/ProjectileSound/MediaEffects/0/Sound"
 		IgnoreIfNotExisting = false
-		With = "sounds/weapons/railgun.wav"
+		With = "sounds/weapons/PLACEHOLDER.wav"
 	}
 	{
 		Action = Replace
 		Replace = "<ships/terran/railgun_loader/railgun_loader.rules>/Part/Components/FireEffect/MediaEffects/0/Sound"
 		IgnoreIfNotExisting = false
-		With = "sounds/weapons/railgun.wav"
+		With = "sounds/weapons/PLACEHOLDER.wav"
 	}
 	{
 		Action = Replace
 		Replace = "<ships/terran/point_defense/point_defense.rules>/Part/Components/FireEffect/MediaEffects/2/Sound"
 		IgnoreIfNotExisting = false
-		With = "sounds/weapons/point_defense.wav"
+		With = "sounds/weapons/PLACEHOLDER.wav"
 	}
 	{
 		Action = Replace
 		Replace = "<ships/terran/cannon_med/cannon_med.rules>/Part/Components/FireEffect/MediaEffects/4/Sound"
 		IgnoreIfNotExisting = false
-		With = "sounds/weapons/cannon.wav"
+		With = "sounds/weapons/PLACEHOLDER.wav"
 	}
 	{
 		Action = Replace
 		Replace = "<ships/terran/cannon_large/cannon_large.rules>/Part/Components/FireEffect/MediaEffects/4/Sound"
 		IgnoreIfNotExisting = false
-		With = "sounds/weapons/cannon.wav"
+		With = "sounds/weapons/PLACEHOLDER.wav"
 	}
 	{
 		Action = Replace
 		Replace = "<ships/terran/cannon_deck/cannon_deck.rules>/Part/Components/FireEffect1/MediaEffects/4/Sound"
 		IgnoreIfNotExisting = false
-		With = "sounds/weapons/cannon_deck.wav"
+		With = "sounds/weapons/PLACEHOLDER.wav"
 	}
 	{
 		Action = Replace
 		Replace = "<ships/terran/flak_cannon_large/flak_cannon_large.rules>/Part/Components/FireEffect1a/MediaEffects/3/Sound"
 		IgnoreIfNotExisting = false
-		With = "sounds/weapons/flak.wav"
+		With = "sounds/weapons/PLACEHOLDER.wav"
 	}
 	{
 		Action = Replace
 		Replace = "<shots/mining_beam_small/mining_beam_small.rules>/BeamMediaEffects/2/Sound"
 		IgnoreIfNotExisting = false
-		With = "sounds/weapons/mining_laser.wav"
+		With = "sounds/weapons/PLACEHOLDER.wav"
 	}
 	{
 		Action = Replace
 		Replace = "<shots/mining_beam_small/mining_beam_small.rules>/BeamMediaEffects/3/Sound"
 		IgnoreIfNotExisting = false
-		With = "sounds/weapons/mining_laser.wav"
+		With = "sounds/weapons/PLACEHOLDER.wav"
 	}
 	{
 		Action = Replace
 		Replace = "<common_effects/sounds/common_sounds.rules>/ThrusterBurst/Sound"
 		IgnoreIfNotExisting = false
-		With = "sounds/engines/thruster_run.wav"
+		With = "sounds/engines/PLACEHOLDER.wav"
 	}
 	{
 		Action = Replace
 		Replace = "<common_effects/sounds/common_sounds.rules>/ThrusterRumble/Sound"
 		IgnoreIfNotExisting = false
-		With = "sounds/engines/thruster_run.wav"
+		With = "sounds/engines/PLACEHOLDER.wav"
 	}
 	{
 		Action = Replace
 		Replace = "<common_effects/sounds/common_sounds.rules>/ThrusterHum/Sound"
 		IgnoreIfNotExisting = false
-		With = "sounds/engines/thruster_idle.wav"
+		With = "sounds/engines/PLACEHOLDER.wav"
 	}
 	{
 		Action = Replace
 		Replace = "<ships/terran/hyperdrive_small/hyperdrive_small.rules>/Part/Components/FtlDrive/JumpOutGateMediaEffects/1/Sound"
 		IgnoreIfNotExisting = false
-		With = "sounds/engines/hyperspace_enter.wav"
+		With = "sounds/engines/PLACEHOLDER.wav"
 	}
 	{
 		Action = Replace
 		Replace = "<ships/terran/hyperdrive_small/hyperdrive_small.rules>/Part/Components/FtlDrive/JumpInGateMediaEffects/1/Sound"
 		IgnoreIfNotExisting = false
-		With = "sounds/engines/hyperspace_exit.wav"
+		With = "sounds/engines/PLACEHOLDER.wav"
 	}
 	{
 		Action = Replace
 		Replace = "<ships/base_ship.rules>/FtlEffects/JumpOutMediaEffects/0/Sound"
 		IgnoreIfNotExisting = false
-		With = "sounds/engines/hyperspace_enter.wav"
+		With = "sounds/engines/PLACEHOLDER.wav"
 	}
 	{
 		Action = Replace
 		Replace = "<ships/base_ship.rules>/FtlEffects/JumpInMediaEffects/0/Sound"
 		IgnoreIfNotExisting = false
-		With = "sounds/engines/hyperspace_exit.wav"
+		With = "sounds/engines/PLACEHOLDER.wav"
 	}
-*/
+	*/
+
 ]
