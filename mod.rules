@@ -1002,15 +1002,13 @@ Actions
 		Replace = "<shots/laser_bolt_large/laser_bolt_large.rules>/Components/Hit/HitStructural/MediaEffects/3/Sound"
 		IgnoreIfNotExisting = false
 		With = "sounds/weapons/PLACEHOLDER.wav"
-	}
-	*/
+	}	
 	{
 		Action = Replace
 		Replace = "<ships/terran/laser_blaster_small/laser_blaster_small.rules>/Part/Components/FireEffect/MediaEffects/2/Sound"
 		IgnoreIfNotExisting = false
 		With = "sounds/weapons/laser.wav"
 	}
-	/*
 	{
 		Action = Replace
 		Replace = "<ships/terran/laser_blaster_large/laser_blaster_large.rules>/Part/Components/FireEffectLeft/MediaEffects/2/Sound"
