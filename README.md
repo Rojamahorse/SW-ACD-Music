@@ -23,9 +23,9 @@ Just like with any mod, using the Music mod could introduce changes that might a
 
 ## Context: Star Wars: A Cosmos Divided Mod
 
-This mod is designed to seamlessly integrate with the Star Wars: A Cosmos Divided mod and the Star Wars: A Cosmos Divided Factions mod. For the ultimate Star Wars experience in Cosmoteer, we recommend using all these mods together.
+This mod is designed to seamlessly integrate with the Star Wars: A Cosmos Divided mod and the Star Wars: A Cosmos Divided Factions mod (Both currently under development). For the ultimate Star Wars experience in Cosmoteer, we recommend using all these mods together.
 
-For detailed information about the prerequisite Star Wars: A Cosmos Divided Mod, visit their GitHub repository: [Cosmos Divided Mod](https://github.com/Rojamahorse/SW-ACD-Music)
+For detailed information about the Star Wars: A Cosmos Divided Mod, visit their GitHub repository: [Cosmos Divided Mod](https://github.com/Star-Wars-A-Cosmos-Divided-DevTeam/Star-Wars-A-Cosmos-Divided)
 
 ## Join Our Discord Server!
 
@@ -33,6 +33,6 @@ Become a part of our growing community on Discord. Share your experiences, get t
 
 ## Disclaimer
 
-Star Wars is a registered trademark of Lucasfilm Ltd. This mod is a fan creation and has not been endorsed by or affiliated with Lucasfilm Ltd. We respect and celebrate the work of the creators.
+This mod is an independent project and is not affiliated with Disney or LucasArts. It is a non-profit mod for the game Cosmoteer, aimed at enhancing the user experience. The Star Wars music used in this mod is copyrighted material belonging to Disney and LucasArts. No infringement is intended, and the mod is not for commercial use. This mod falls under "User Generated Content" and "Fair Use" guidelines and aims to respect the work of the original creators. We extend our heartfelt gratitude to Disney and LucasArts for enriching our lives with their incredible content. We strongly encourage all players to show their support by enjoying and purchasing official Star Wars releases.
 
 [Official STAR WARS website](https://www.starwars.com/)

@@ -1,6 +1,6 @@
 
 ID = SW.StarWarsMusic
-Name = "Star Wars Music"
+Name = "Star Wars: ACD Music Add-on"
 Version = 1.0.0
 CompatibleGameVersions = ["0.23.2","0.23.3"]
 ModifiesMultiplayer = true
@@ -8,13 +8,13 @@ Author = "Rojamahorse"
 Logo = "logo.png"
 //StringsFolder = "strings"
 
-Description = "Ever want to boogie like Boba Fett at a Dantooine disco? This playlist is so on point, even Stormtroopers can't miss the beat!"
+Description = "Ever want to boogie like Boba Fett at a Dantooine disco? Or waltz like a Wookiee at a Bespin ballroom? The beats on this playlist are so on target, even Stormtroopers can't miss them!"
 
 Actions
 [
-	// *** Music ***
+	/* ****** MUSIC ****** */
 
-
+// ----------------------------------Overrides Cluster 1 Music --------------------------------------------------------------------------------------------------
 	{
 		Action = Overrides
 		OverrideIn = "<music/cluster1.rules>/Track1_Intro"
@@ -28,7 +28,7 @@ Actions
 		OverrideIn = "<music/cluster1.rules>/Track1_Intro/Layers/0"
 		Overrides
 		{
-			File = "music/SW_Intro_Music.ogg"
+			File = "music/SW_Intro_Music.music"
 			DynamicVolumeVelocity = 0
             ZoomVolumes
             [
@@ -50,7 +50,7 @@ Actions
 		OverrideIn = "<music/cluster1.rules>/Track1_1/Layers/0"
 		Overrides
 		{
-			File = "music/SW_Intro_Music.ogg"
+			File = "music/SW_Intro_Music.music"
 			DynamicVolumeVelocity = 0
             ZoomVolumes
             [
@@ -82,7 +82,7 @@ Actions
 		OverrideIn = "<music/cluster1.rules>/Track1_2/Layers/0"
 		Overrides
 		{
-			File = "music/SW_EmpireLoyalists.ogg"
+			File = "music/SW_EmpireLoyalists.music"
 			DynamicVolumeVelocity = 0
             ZoomVolumes
             [
@@ -116,7 +116,7 @@ Actions
 		OverrideIn = "<music/cluster1.rules>/Track1_3/Layers/0"
 		Overrides
 		{
-			File = "music/SW_MoarEmpire.ogg"
+			File = "music/SW_MoarEmpire.music"
 			DynamicVolumeVelocity = 0
             ZoomVolumes
             [
@@ -138,7 +138,7 @@ Actions
 	}	
 
 	
-	// ------------------------------------------------------------------------------------------------------------------------------------------------------
+// ----------------------------------Overrides Cluster 2 Music --------------------------------------------------------------------------------------------------
 	
 	{
 		Action = Overrides
@@ -153,7 +153,7 @@ Actions
 		OverrideIn = "<music/cluster2.rules>/Track2_Intro/Layers/0"
 		Overrides
 		{
-			File = "music/SW_battle1.ogg"
+			File = "music/SW_battle1.music"
 			DynamicVolumeVelocity = 0
             ZoomVolumes
             [
@@ -180,7 +180,7 @@ Actions
 		OverrideIn = "<music/cluster2.rules>/Track2_1/Layers/0"
 		Overrides
 		{
-			File = "music/SW_battle2.ogg"
+			File = "music/SW_battle2.music"
 			DynamicVolumeVelocity = 0
             ZoomVolumes
             [
@@ -214,7 +214,7 @@ Actions
 		OverrideIn = "<music/cluster2.rules>/Track2_2/Layers/0"
 		Overrides
 		{
-			File = "music/galaxy_1.ogg"
+			File = "music/SW_galaxy_1.music"
 			DynamicVolumeVelocity = 0
             ZoomVolumes
             [
@@ -247,7 +247,7 @@ Actions
 		OverrideIn = "<music/cluster2.rules>/Track2_3/Layers/0"
 		Overrides
 		{
-			File = "music/galaxy_2.ogg"
+			File = "music/SW_galaxy_2.music"
 			DynamicVolumeVelocity = 0
             ZoomVolumes
             [
@@ -267,7 +267,7 @@ Actions
 		]
 	}	
 	
-	// ------------------------------------------------------------------------------------------------------------------------------------------------------
+// ----------------------------------Overrides Cluster 3 Music --------------------------------------------------------------------------------------------------
 	
 	{
 		Action = Overrides
@@ -282,7 +282,7 @@ Actions
 		OverrideIn = "<music/cluster3.rules>/Track3_1/Layers/1"
 		Overrides
 		{
-			File = "music/galaxy_3.ogg"
+			File = "music/SW_galaxy_3.music"
 			DynamicVolumeVelocity = 0
             ZoomVolumes
             [
@@ -314,7 +314,7 @@ Actions
 		OverrideIn = "<music/cluster3.rules>/Track3_2/Layers/1"
 		Overrides
 		{
-			File = "music/galaxy_4.ogg"
+			File = "music/SW_galaxy_4.music"
 			DynamicVolumeVelocity = 0
             ZoomVolumes
             [
@@ -346,7 +346,7 @@ Actions
 		OverrideIn = "<music/cluster3.rules>/Track3_3/Layers/1"
 		Overrides
 		{
-			File = "music/galaxy_5.ogg"
+			File = "music/SW_galaxy_5.music"
 			DynamicVolumeVelocity = 0
             ZoomVolumes
             [
@@ -366,7 +366,7 @@ Actions
 		]
 	}	
 
-	// ------------------------------------------------------------------------------------------------------------------------------------------------------
+// ----------------------------------Overrides Cluster 4 Music --------------------------------------------------------------------------------------------------
 	
 	{
 		Action = Overrides
@@ -381,7 +381,7 @@ Actions
 		OverrideIn = "<music/cluster4.rules>/Track4_1/Layers/1"
 		Overrides
 		{
-			File = "music/galaxy_6.ogg"
+			File = "music/SW_galaxy_6.music"
 			DynamicVolumeVelocity = 0
             ZoomVolumes
             [
@@ -414,7 +414,7 @@ Actions
 		OverrideIn = "<music/cluster4.rules>/Track4_2/Layers/1"
 		Overrides
 		{
-			File = "music/galaxy_7.ogg"
+			File = "music/SW_galaxy_7.music"
 			DynamicVolumeVelocity = 0
             ZoomVolumes
             [
@@ -446,7 +446,7 @@ Actions
 		OverrideIn = "<music/cluster4.rules>/Track4_3/Layers/1"
 		Overrides
 		{
-			File = "music/galaxy_8.ogg"
+			File = "music/SW_galaxy_8.music"
 			DynamicVolumeVelocity = 0
             ZoomVolumes
             [
@@ -465,7 +465,8 @@ Actions
 			"<music/cluster4.rules>/Track4_3/Layers/0"
 		]
 	}	
-	// ------------------------------------------------------------------------------------------------------------------------------------------------------
+
+// ----------------------------------Overrides Cluster 5 Music --------------------------------------------------------------------------------------------------
 	
 	{
 		Action = Overrides
@@ -480,7 +481,7 @@ Actions
 		OverrideIn = "<music/cluster5.rules>/Track5_Intro/Layers/0"
 		Overrides
 		{
-			File = "music/galaxy_9.ogg"
+			File = "music/SW_galaxy_9.music"
 			DynamicVolumeVelocity = 0
             ZoomVolumes
             [
@@ -507,7 +508,7 @@ Actions
 		OverrideIn = "<music/cluster5.rules>/Track5_1/Layers/0"
 		Overrides
 		{
-			File = "music/DarkEmpire.ogg"
+			File = "music/SW_DarkEmpire.music"
 			DynamicVolumeVelocity = 0
             ZoomVolumes
             [
@@ -540,7 +541,7 @@ Actions
 		OverrideIn = "<music/cluster5.rules>/Track5_2/Layers/0"
 		Overrides
 		{
-			File = "music/SW_Mellow.ogg"
+			File = "music/SW_Mellow.music"
 			DynamicVolumeVelocity = 0
             ZoomVolumes
             [
@@ -573,7 +574,7 @@ Actions
 		OverrideIn = "<music/cluster5.rules>/Track5_3/Layers/0"
 		Overrides
 		{
-			File = "music/SW_Ramp.ogg"
+			File = "music/SW_Ramp.music"
 			DynamicVolumeVelocity = 0
             ZoomVolumes
             [
@@ -593,7 +594,7 @@ Actions
 		]
 	}
 	
-	// ------------------------------------------------------------------------------------------------------------------------------------------------------
+// ----------------------------------Overrides Cluster 6 Music --------------------------------------------------------------------------------------------------
 	
 	{
 		Action = Overrides
@@ -608,7 +609,7 @@ Actions
 		OverrideIn = "<music/cluster6.rules>/Track6_Intro/Layers/0"
 		Overrides
 		{
-			File = "music/SW_battle3.ogg"
+			File = "music/SW_battle3.music"
 			DynamicVolumeVelocity = 0
             ZoomVolumes
             [
@@ -635,7 +636,7 @@ Actions
 		OverrideIn = "<music/cluster6.rules>/Track6_1/Layers/0"
 		Overrides
 		{
-			File = "music/SW_EmpireRebels.ogg"
+			File = "music/SW_EmpireRebels.music"
 			DynamicVolumeVelocity = 0
             ZoomVolumes
             [
@@ -668,7 +669,7 @@ Actions
 		OverrideIn = "<music/cluster6.rules>/Track6_2/Layers/0"
 		Overrides
 		{
-			File = "music/SW_Cluster6.2_Main.ogg"
+			File = "music/SW_Cluster6.2_Main.music"
 			DynamicVolumeVelocity = 0
             ZoomVolumes
             [
@@ -701,7 +702,7 @@ Actions
 		OverrideIn = "<music/cluster6.rules>/Track6_3/Layers/0"
 		Overrides
 		{
-			File = "music/SW_Cluster6.3_Main.ogg"
+			File = "music/SW_Cluster6.3_Main.music"
 			DynamicVolumeVelocity = 0
             ZoomVolumes
             [
@@ -721,7 +722,7 @@ Actions
 		]
 	}
 	
-	// ------------------------------------------------------------------------------------------------------------------------------------------------------
+// ----------------------------------Overrides Cluster 7 Music --------------------------------------------------------------------------------------------------
 	
 	{
 		Action = Overrides
@@ -736,7 +737,7 @@ Actions
 		OverrideIn = "<music/cluster7.rules>/Track7_Intro/Layers/0"
 		Overrides
 		{
-			File = "music/SW_Cluster6.4_Main.ogg"
+			File = "music/SW_Cluster6.4_Main.music"
 			DynamicVolumeVelocity = 0
             ZoomVolumes
             [
@@ -763,7 +764,7 @@ Actions
 		OverrideIn = "<music/cluster7.rules>/Track7_1/Layers/0"
 		Overrides
 		{
-			File = "music/SW_Cluster7.1_Main.ogg"
+			File = "music/SW_Cluster7.1_Main.music"
 			DynamicVolumeVelocity = 0
             ZoomVolumes
             [
@@ -795,7 +796,7 @@ Actions
 		OverrideIn = "<music/cluster7.rules>/Track7_2/Layers/0"
 		Overrides
 		{
-			File = "music/SW_Cluster7.3_Main.ogg"
+			File = "music/SW_Cluster7.3_Main.music"
 			DynamicVolumeVelocity = 0
             ZoomVolumes
             [
@@ -827,7 +828,7 @@ Actions
 		OverrideIn = "<music/cluster7.rules>/Track7_3/Layers/0"
 		Overrides
 		{
-			File = "music/SW_Cluster8.1_Main.ogg"
+			File = "music/SW_Cluster8.1_Main.music"
 			DynamicVolumeVelocity = 0
             ZoomVolumes
             [
@@ -846,7 +847,7 @@ Actions
 		]
 	}
 	
-	// ------------------------------------------------------------------------------------------------------------------------------------------------------
+// ----------------------------------Overrides Cluster 8 Music --------------------------------------------------------------------------------------------------
 	
 	{
 		Action = Overrides
@@ -861,7 +862,7 @@ Actions
 		OverrideIn = "<music/cluster8.rules>/Track8_1/Layers/0"
 		Overrides
 		{
-			File = "music/SW_Cluster8.3_Main.ogg"
+			File = "music/SW_Cluster8.3_Main.music"
 			DynamicVolumeVelocity = 0
             ZoomVolumes
             [
@@ -893,7 +894,7 @@ Actions
 		OverrideIn = "<music/cluster8.rules>/Track8_2/Layers/0"
 		Overrides
 		{
-			File = "music/SW_Cluster1.1_Main.ogg"
+			File = "music/SW_Cluster1.1_Main.music"
 			DynamicVolumeVelocity = 0
             ZoomVolumes
             [
@@ -925,7 +926,7 @@ Actions
 		OverrideIn = "<music/cluster8.rules>/Track8_3/Layers/0"
 		Overrides
 		{
-			File = "music/SW_Cluster1.3_Main.ogg"
+			File = "music/SW_Cluster1.3_Main.music"
 			DynamicVolumeVelocity = 0
             ZoomVolumes
             [
@@ -957,7 +958,7 @@ Actions
 		OverrideIn = "<music/cluster8.rules>/Track8_4/Layers/0"
 		Overrides
 		{
-			File = "music/SW_Cluster2.2_Main.ogg"
+			File = "music/SW_Cluster2.2_Main.music"
 			DynamicVolumeVelocity = 0
             ZoomVolumes
             [
@@ -976,8 +977,10 @@ Actions
 		]
 	}
 
-	
-	// *** Sounds ***
+	/* ****** SOUND EFFECTS ****** */
+
+
+	// *** Standard Sound Effect Replacements ***
 	/*
 	{
 		Action = Replace
