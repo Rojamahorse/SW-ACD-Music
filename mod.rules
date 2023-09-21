@@ -1,8 +1,8 @@
 
-ID = SW.StarWarsMusic
+ID = SW.2.StarWarsMusic
 Name = "Star Wars: ACD Music Add-on"
-Version = 1.0.0
-CompatibleGameVersions = ["0.23.2","0.23.3"]
+Version = 1.0.1
+CompatibleGameVersions = ["0.24.0","0.23.2","0.23.3"]
 ModifiesMultiplayer = true
 Author = "Rojamahorse"
 Logo = "logo.png"
@@ -982,6 +982,36 @@ Actions
 
 	// *** Standard Sound Effect Replacements ***
 	/*
+		{
+		Action = Replace
+		Replace = "<ships/terran/hyperdrive_small/hyperdrive_small.rules>/Part/Components/FtlDrive/JumpOutGateMediaEffects/1/Sound"
+		IgnoreIfNotExisting = false
+		With = "sounds/warp_speed_in.wav"
+	}
+	{
+		Action = Replace
+		Replace = "<ships/terran/hyperdrive_small/hyperdrive_small.rules>/Part/Components/FtlDrive/JumpInGateMediaEffects/1/Sound"
+		IgnoreIfNotExisting = false
+		With = "sounds/warp_speed_out.wav"
+	}
+	{
+		Action = Replace
+		Replace = "<ships/base_ship.rules>/FtlEffects/JumpOutMediaEffects/0/Sound"
+		IgnoreIfNotExisting = false
+		With = "sounds/warp_speed_in.wav"
+	}
+	{
+		Action = Replace
+		Replace = "<ships/base_ship.rules>/FtlEffects/JumpInMediaEffects/0/Sound"
+		IgnoreIfNotExisting = false
+		With = "sounds/warp_speed_out.wav"
+	}
+	{
+		Action = Replace
+		Replace = "<ships/base_ship.rules>/FtlEffects/TotalDuration"
+		IgnoreIfNotExisting = false
+		With = 2.5
+	}
 	{
 		Action = Replace
 		Replace = "<shots/laser_bolt_small/laser_bolt_small.rules>/Components/Hit/HitOperational/MediaEffects/4/Sound"
