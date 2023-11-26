@@ -1,9 +1,9 @@
 
-ID = SW.2.StarWarsMusic
+ID = SW.4.StarWarsMusic
 Name = "Star Wars: ACD Music Add-on"
 Version = 1.0.1
 CompatibleGameVersions = ["0.24.0","0.23.2","0.23.3"]
-ModifiesMultiplayer = true
+ModifiesGameplay = false
 Author = "Rojamahorse"
 Logo = "logo.png"
 //StringsFolder = "strings"
