@@ -1,8 +1,8 @@
 
 ID = SW.4.StarWarsMusic
 Name = "Star Wars: ACD Music Add-on"
-Version = 1.0.2
-CompatibleGameVersions = ["0.26.0","0.25.0","0.24.0","0.23.2","0.23.3"]
+Version = 1.5.0.27.0
+CompatibleGameVersions = ["0.27.0","0.26.2"."0.26.0","0.25.0","0.24.0","0.23.2","0.23.3"]
 ModifiesGameplay = false
 Author = "Rojamahorse"
 Logo = "logo.png"
@@ -13,8 +13,16 @@ Description = "Ever want to boogie like Boba Fett at a Dantooine disco? Or waltz
 Actions
 [
 	/* ****** MUSIC ****** */
+	{
+		Action = Replace
+		Replace = "<./Data/music/music.rules>/RootTrack"
+		IgnoreIfNotExisting = false
+		With = &<music/music.rules>/RootTrack
+	}
+]
 
 // ----------------------------------Overrides Cluster 1 Music --------------------------------------------------------------------------------------------------
+/*
 	{
 		Action = Overrides
 		OverrideIn = "<music/cluster1.rules>/Track1_Intro"
@@ -136,10 +144,10 @@ Actions
 			"<music/cluster1.rules>/Track1_3/Layers/1"
 		]
 	}	
-
+*/
 	
 // ----------------------------------Overrides Cluster 2 Music --------------------------------------------------------------------------------------------------
-	
+/*	
 	{
 		Action = Overrides
 		OverrideIn = "<music/cluster2.rules>/Track2_Intro"
@@ -166,7 +174,7 @@ Actions
 		Action = Remove
 		Remove = "<music/cluster2.rules>/Track2_Intro/Layers/1"
 	}
-	
+	//Track 2_1
 	{
 		Action = Overrides
 		OverrideIn = "<music/cluster2.rules>/Track2_1"
@@ -199,7 +207,7 @@ Actions
 			"<music/cluster2.rules>/Track2_1/Layers/1"
 		]
 	}	
-
+	//Track 2_2
 	
 	{
 		Action = Overrides
@@ -232,8 +240,9 @@ Actions
 			"<music/cluster2.rules>/Track2_2/Layers/2"
 			"<music/cluster2.rules>/Track2_2/Layers/1"
 		]
-	}	
-	
+	}
+
+	//Track 2_3
 	{
 		Action = Overrides
 		OverrideIn = "<music/cluster2.rules>/Track2_3"
@@ -266,9 +275,10 @@ Actions
 			"<music/cluster2.rules>/Track2_3/Layers/1"
 		]
 	}	
-	
+*/	
 // ----------------------------------Overrides Cluster 3 Music --------------------------------------------------------------------------------------------------
-	
+/*	
+	//Track 3_1 (Intro)
 	{
 		Action = Overrides
 		OverrideIn = "<music/cluster3.rules>/Track3_1"
@@ -300,7 +310,8 @@ Actions
 			"<music/cluster3.rules>/Track3_1/Layers/2"
 			"<music/cluster3.rules>/Track3_1/Layers/0"
 		]
-	}	
+	}
+	//Track 3_2	
 	{
 		Action = Overrides
 		OverrideIn = "<music/cluster3.rules>/Track3_2"
@@ -332,7 +343,8 @@ Actions
 			"<music/cluster3.rules>/Track3_2/Layers/2"
 			"<music/cluster3.rules>/Track3_2/Layers/0"
 		]
-	}	
+	}
+	//Track 3_3	
 	{
 		Action = Overrides
 		OverrideIn = "<music/cluster3.rules>/Track3_3"
@@ -365,9 +377,9 @@ Actions
 			"<music/cluster3.rules>/Track3_3/Layers/0"
 		]
 	}	
-
+*/
 // ----------------------------------Overrides Cluster 4 Music --------------------------------------------------------------------------------------------------
-	
+/*	
 	{
 		Action = Overrides
 		OverrideIn = "<music/cluster4.rules>/Track4_1"
@@ -465,9 +477,9 @@ Actions
 			"<music/cluster4.rules>/Track4_3/Layers/0"
 		]
 	}	
-
+*/
 // ----------------------------------Overrides Cluster 5 Music --------------------------------------------------------------------------------------------------
-	
+/*	
 	{
 		Action = Overrides
 		OverrideIn = "<music/cluster5.rules>/Track5_Intro"
@@ -593,9 +605,9 @@ Actions
 			"<music/cluster5.rules>/Track5_3/Layers/1"
 		]
 	}
-	
+*/	
 // ----------------------------------Overrides Cluster 6 Music --------------------------------------------------------------------------------------------------
-	
+/*	
 	{
 		Action = Overrides
 		OverrideIn = "<music/cluster6.rules>/Track6_Intro"
@@ -721,9 +733,9 @@ Actions
 			"<music/cluster6.rules>/Track6_3/Layers/1"
 		]
 	}
-	
+*/	
 // ----------------------------------Overrides Cluster 7 Music --------------------------------------------------------------------------------------------------
-	
+/*	
 	{
 		Action = Overrides
 		OverrideIn = "<music/cluster7.rules>/Track7_Intro"
@@ -846,9 +858,9 @@ Actions
 			"<music/cluster7.rules>/Track7_3/Layers/1"
 		]
 	}
-	
+*/
 // ----------------------------------Overrides Cluster 8 Music --------------------------------------------------------------------------------------------------
-	
+/*	
 	{
 		Action = Overrides
 		OverrideIn = "<music/cluster8.rules>/Track8_1"
@@ -976,7 +988,7 @@ Actions
 			"<music/cluster8.rules>/Track8_4/Layers/1"
 		]
 	}
-
+*/
 	/* ****** SOUND EFFECTS ****** */
 
 
@@ -1173,7 +1185,8 @@ Actions
 		Replace = "<ships/base_ship.rules>/FtlEffects/JumpInMediaEffects/0/Sound"
 		IgnoreIfNotExisting = false
 		With = "sounds/engines/PLACEHOLDER.wav"
-	}
-	*/
-
+	}*/
+	
+/*
 ]
+*/
