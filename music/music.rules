@@ -1,24 +1,25 @@
 /*
-BufferTime = 0.1
-MenuZoom = 1.0
-ChannelCount = 2
-Frequency = 44100
+BufferTime = 0.1 // BufferTime: Time in seconds to buffer the audio
+MenuZoom = 1.0 // MenuZoom: Zoom level for the menu background music
+ChannelCount = 2 // ChannelCount: Number of audio channels (2 for stereo)
+Frequency = 44100 // Frequency: Sample rate of the audio in Hz
 */
-RootTrack
+RootTrack // RootTrack: Defines the root track that acts as the main container for all music tracks
 {
-	Type = FSM
-	DebugName = "Root"
-	IntroTracks
+	Type = FSM // Type: Type of the track, here it is a finite state machine (FSM)
+	/*Specifies the type of the track. Here, FSM (Finite State Machine) is used, indicating that the track will follow a set sequence of states (or tracks) based on certain conditions.*/
+	DebugName = "Root" // DebugName: Name used for debugging purposes
+	IntroTracks  // IntroTracks: Array of initial tracks to play, references to different cluster rule files
 	[
-		&<cluster1.rules>
-		&<cluster2.rules>
-		&<cluster3.rules>
-		&<cluster4.rules>
-		&<cluster5.rules>
-		&<cluster6.rules>
-		&<cluster7.rules>
-		&<cluster8.rules>		
+		&<sw_cluster1.rules>
+		&<sw_cluster2.rules>
+		&<sw_cluster3.rules>
+		&<sw_cluster4.rules>
+		&<sw_cluster5.rules>
+		&<sw_cluster6.rules>
+		&<sw_cluster7.rules>
+		&<sw_cluster8.rules>		
 	]
-	FirstBootIntroTracks = [&<cluster3.rules>]
-	DefaultNextTracks = &IntroTracks
+	FirstBootIntroTracks = [&<sw_cluster1.rules>]  // FirstBootIntroTracks: Tracks to be played on the first boot of the game
+	DefaultNextTracks = &IntroTracks // DefaultNextTracks: Default sequence of tracks to play after the initial tracks
 }
