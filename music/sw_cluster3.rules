@@ -22,7 +22,7 @@ Track3_1
 		{
 			Type = File
 			File = "SW_galaxy_3.music"
-            DynamicCondition = "? (interior == True or battle == True or wanted == True) and paused == False"
+            //DynamicCondition = "? (interior == True or battle == True or wanted == True) and paused == False"
 			DynamicVolumeVelocity = 0
             ZoomVolumes
             [
@@ -126,7 +126,7 @@ Track3_2
 		{
 			Type = File
 			File = "SW_galaxy_4.music"
-            DynamicCondition = "? (interior == True or battle == True or wanted == True) and paused == False"
+            //DynamicCondition = "? (interior == True or battle == True or wanted == True) and paused == False"
 			DynamicVolumeVelocity = 0
             ZoomVolumes
             [
@@ -231,7 +231,7 @@ Track3_3
 		{
 			Type = File
 			File = "SW_galaxy_5.music"
-            DynamicCondition = "? (interior == True or battle == True or wanted == True) and paused == False"
+            //DynamicCondition = "? (interior == True or battle == True or wanted == True) and paused == False"
  			DynamicVolumeVelocity = 0
             ZoomVolumes
             [
